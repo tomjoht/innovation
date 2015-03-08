@@ -59,18 +59,10 @@
          p.miscItems {
           font-size:1.2em;
          }
-         div.transbox
-         {
-         background-color: beige;
-         opacity:0.6;
-         filter:alpha(opacity=60); /* For IE8 and earlier */
-         }
-         div.transbox ul, div.transbox ol, div.transbox p
-         {
-         font-weight: bold;
-         color: #000000;
-         }
-         figcaption {font-size:60%;}
+         .slides section h3 {
+          color: orange !important; outline: gray;
+        }
+
       </style>
    </head>
    <body>
@@ -84,7 +76,7 @@
                   <small>Created by <a href="http://idratherbewriting.com">Tom Johnson</a> / <a href="http://twitter.com/tomjohnson">@tomjohnson</a></small>
                </p>
             </section>
-            <!--
+            
             <section>
                <h2>Keyboard shortcuts</h2>
                <table>
@@ -105,9 +97,9 @@
                      <td>Esc</td>
                   </tr>
                </table>
-               <p>Some slides move down instead of to the side.</p>
+               <p><i><b>Note:</b> Some slides move down instead of to the side, so use the space bar to advance slides instead of your arrow key.</i></p>
             </section>
-            -->
+          
             <section>
                <h2>Startup cultures encourage innovation</h2>
                <img src="media/vectors/innovation_milkyway.svg" />
@@ -135,7 +127,7 @@
             </section>
 
             <section>
-              <h2>Think Big Thursdays</h2>
+              <h2>"Think Big Thursdays"</h2>
               <img src="media/vectors/innovation_tbt.svg"/>
               <aside class="notes">
               <p>- my main task: bring content online into the modern era</p>
@@ -165,11 +157,12 @@
                  <p>- there are different value markets -- big companies can't operate in the lower value market</p>
                </aside>
             </section>
-               <!-- begin parent section -->
                
-               <section>
-               <h2>Major technology innovations</h2>
-    
+            <section>
+               <h2>Survey of innovations</h2>
+
+                <section>
+                <h3>Innovations with technology</h3>
                   <p class="miscItems">HTML5 &bull; REST APIs &bull; CSS media queries &bull; oAuth &bull; AJAX &bull; instant search &bull; SVG &bull; augmented reality &bull; Internet of Things &bull; big data &bull; social networks &bull; YouTube &bull; Bootstrap &bull; static site generators &bull; jQuery &bull; YouTube &bull; StackOverflow &bull; Github &bull; continuous integration &bull; LESS & Sass &bull; wikis
                   </p>
                   <aside class="notes">
@@ -179,7 +172,7 @@
                   </aside>
                </section>
                <section>
-                  <h2>Major idea innovations</h2>
+                  <h3>Innovations with ideas</h3>
                   <p class="miscItems">decentralization &bull; agile &bull; crowdsourcing &bull; gamification &bull; Cluetrain Manifesto (user-to-user communication) &bull; The Long Tail &bull; "Everything Is Miscellaneous" &bull; semantic web &bull; information architecture &bull; content marketing &bull; transparency &bull; simplicity of design &bull; open source &bull; social coding
                   </p>
                   <aside class="notes">
@@ -189,7 +182,7 @@
                   </aside>
                </section>
                <section>
-                  <h2>Tech comm innovations</h2>
+                  <h3>Innovations in tech comm</h3>
                   <p class="miscItems">information typing &bull; minimalism &bull; task-based documentation &bull; topic-oriented documentation &bull; DITA &bull; DocOps &bull; Every Page Is Page One &bull; emotional language &bull; personalization &bull; video tutorials &bull; user-generated content &bull; content strategy &bull; single sourcing
                   </p>
                   <aside class="notes">
@@ -198,9 +191,11 @@
                     <p>- most of these are probably sustaining innovations</p>
                   </aside>
                </section>
+            </section>
             <section>
                <h2>Most significant innovation for TC?</h2>
-          
+              <section>
+              <h3>Everyone is a technical writer</h3>
                   <img src="media/vectors/innovation_significant.svg"/>
                
                  <aside class="notes">
@@ -208,10 +203,9 @@
                     <p>- decentralization of information</p>
                     <p>- people don't care about the source -- just google it and find the information</p>
                   </aside>
-            </section>
+              </section>
             <section>
-               <h2>Everyone is a "technical writer"</h2>
-          
+                <h3>Unofficial technical writer</h3>
                   <img src="media/rasters/everyoneistechwriter.png"/>
                
                  <aside class="notes">
@@ -221,6 +215,7 @@
                   </aside>
             </section>
                <section>
+               <h3>Job trends for technical writer</h3>
                   <img src="media/rasters/twjob_trends.png"/>
                   <aside class="notes">
                   <p>- okay, so why do I still have a job?</p>
@@ -229,6 +224,7 @@
                   </aside>
                </section>
             </section>
+
             <section>
                <h2>Microsoft and last 5 great innovations</h2>
                <img src="media/vectors/innovation_microsoft.svg"/>
@@ -326,11 +322,10 @@
             <section>
                <h2>Web tools to know</h2>
                <section>
-               <figure>
+               <h3>Bootstrap</h3>
               
                <img style="max-height: 500px;" src="media/rasters/bootstrap.png"/>
-               <figcaption>Bootstrap: web framework</figcaption>
-               </figure>
+          
                   <aside class="notes">
                     <p>- the bootstrap grid -- gets you responsive design easily</p>
                     <p>- add new components like magic with just styles</p>
@@ -339,10 +334,9 @@
             </section>
 
             <section>
-            <figure>
+            <h3>jQuery</h3>
                <img  style="max-height: 500px;" src="media/rasters/jquery.png"/>
-               <figcaption>jQuery: interactivity</figcaption>
-               </figure>
+               
                   <aside class="notes">
                     <p>- jquery plugins for everything -- selecting, filtering, animating, interacting</p>
                     <p>- know simple way to integrate jquery and you expand your world significantly</p>
@@ -350,10 +344,10 @@
                   </aside>
             </section>
             <section>
-            <figure>
+            <h3>Markdown</h3>
+           
                <img src="media/rasters/markdown.jpg"/>
-               <figcaption>Markdown: easy syntax for HTML</figcaption>
-               </figure>
+               
                   <aside class="notes">
                     <p>- no tags to get in the way, so it's very readable</p>
                     <p>- where you fall short, use HTML. just be careful of spacing.</p>
@@ -365,6 +359,7 @@
             <section>
                <h2>The genius of Github and open source</h2>
                <section>
+               <h3>Revolutionary for software development?</h3>
                <blockquote>
                "Github, in my humble opinion, is one of the most revolutionary things that has happened to software in 20 years." <br /><br />&mdash; -- Joe Malin
                </blockquote>
@@ -376,10 +371,9 @@
 
                </section>
                <section>
-               <figure>
-               <div class="caption">this is a callout</div>
+              <h3>Github repositories</h3>
                <img src="media/rasters/github.png"/>
-               </figure>
+               
                   <aside class="notes">
                     <p>- default code repository for projects on the web</p>
                     <p>- allows devs to share code with each other</p>
@@ -388,10 +382,8 @@
             </section>
 
             <section>
-            <figure>
+            <h3>Social coding</h3>
                <img style="max-width: 800px;" src="media/vectors/innovation_github.svg"/>
-               <figcaption>Social coding</figcaption>
-               </figure>
                   <aside class="notes">
                     <p>- why so revolutionary? living code samples.  </p>
                     <p>- provide updates to people using your code</p>

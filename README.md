@@ -1,1 +1,1 @@
-# innovation
+These are my sides for a presentation on innovation in technical communication.

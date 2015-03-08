@@ -62,6 +62,10 @@
          .slides section h3 {
           color: orange !important; outline: gray;
         }
+         .slides img.shortened {
+          max-width: 80%;
+          max-height: 80%;
+         }
 
       </style>
    </head>
@@ -269,7 +273,7 @@
                   </aside>
                <section>
            
-                  <h4><span class="orange">How do you know if you're wasting your time?</span></h4>
+                  <h4><span class="orange">How do you know if you're just wasting your time?</span></h4>
                   
                      <img src="media/vectors/innovation_wastedtime.svg"/>
                  
@@ -325,7 +329,7 @@
                <section>
                <h3>Bootstrap</h3>
               
-               <img style="max-height: 500px;" src="media/rasters/bootstrap.png"/>
+               <img class="shortened" src="media/rasters/bootstrap.png"/>
           
                   <aside class="notes">
                     <p>- the bootstrap grid -- gets you responsive design easily</p>
@@ -336,7 +340,7 @@
 
             <section>
             <h3>jQuery</h3>
-               <img  style="max-height: 500px;" src="media/rasters/jquery.png"/>
+               <img class="shortened" src="media/rasters/jquery.png"/>
                
                   <aside class="notes">
                     <p>- jquery plugins for everything -- selecting, filtering, animating, interacting</p>
@@ -373,7 +377,7 @@
                </section>
                <section>
               <h3>Github repositories</h3>
-               <img src="media/rasters/github.png"/>
+               <img class="shortened" src="media/rasters/github.png"/>
                
                   <aside class="notes">
                     <p>- default code repository for projects on the web</p>
@@ -384,7 +388,7 @@
 
             <section>
             <h3>Social coding</h3>
-               <img style="max-width: 800px;" src="media/vectors/innovation_github.svg"/>
+               <img class="shortened" src="media/vectors/innovation_github.svg"/>
                   <aside class="notes">
                     <p>- why so revolutionary? living code samples.  </p>
                     <p>- provide updates to people using your code</p>
@@ -420,10 +424,7 @@
                         <td>Terminal commands</td>
                      </tr>
                   </table>
-                  <p><a href="#" class="navigate-down">
-                     <img width="25" data-src="media/rasters/arrow.png" alt="Down arrow">
-                     </a>
-                  </p>
+              
                   <aside class="notes">
                      <b>Story 1:</b> Confluence's switch from wiki text to rich text.<br/>
                      <b>Story 2:</b> Using DITA with Oxygen was first exposure to pure text-file formats.<br/>
@@ -442,7 +443,8 @@
             file formats.&lt;/i&gt;&lt;/p&gt;
          &lt;/section&gt;
             </code></pre>
-                  <p><i>So much more satisfying to work in text file formats.</i></p>
+            <p>Github repo: <a target="_blank" href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a>
+                  <p><i>It's so much more satisfying to work in text file formats.</i></p>
 <aside class="notes">
                     <p>- </p>
                     <p>- </p>
@@ -477,10 +479,10 @@
                   </aside>
             </section>
             <section>
-               <h2>Help APIs: Sites pull in content</h2>
+               <h2>Help APIs</h2>
             <section>
-          
-               <img src="media/vectors/innovation_helpapi.svg"/>
+          <h3>Sites pull in content</h3>
+               <img class="shortened" src="media/vectors/innovation_helpapi.svg"/>
                
                   <aside class="notes">
                     <p>- push content into JSON format</p>
@@ -489,12 +491,11 @@
                   </aside>
             </section>
             <section>
-              <figure>
+             <h3>Tooltips populated dynamically from API</h3>
                <a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/tooltip_demo">
-               <img src="media/rasters/tooltipdemo.png"/>
+               <img class="shortened" src="media/rasters/tooltipdemo.png"/>
                </a>
-               <figcaption>Tooltips populated dynamically from API</figcaption>
-               </figure>
+               
                   <aside class="notes">
                     <p>- </p>
                     <p>- </p>
@@ -503,12 +504,30 @@
             </section>
             </section>
             
-            </section>
             <section>
-               <h2>Separating content from <i>format</i></h2>
-               <img src="media/vectors/innovation_separation.svg"/>
+               <h2>Extractable content</h2>
+               <section>
+               <h3>Content separated from format</h3>
+               <img class="shortened" src="media/vectors/innovation_separation.svg"/>
             </section>
-              
+              <section>
+              <h3>Iterate through pages</h3>
+              <pre><code>
+{
+  "entries": 
+[
+    {% for page in site.tooltips %}
+    {
+      "id"    : "{{ page.id }}",
+      "body": "{{ page.content | strip_newlines | replace: '\', '\\\\' | replace: '"', '\\"' }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+}
+              </code></pre>
+
+              </section>
+              </section>
     
                <!-- <section data-background-video="media/video/expand.mp4"> -->
                <section data-background="media/vectors/innovation_scalability.svg"/>
@@ -535,7 +554,7 @@
                </section>
                </section>
               <section>
-               <h2>Get help from UX team members</h2>
+               <h2>UX talent will help when platform is web</h2>
                <img src="media/vectors/innovation_ux.svg"/>
                   <aside class="notes">
                     <p>- experience in working with Alan who is able to process doc block code into jekyll. uses gulp, esprima, and lots of other tools.</p>
@@ -551,7 +570,7 @@
                <ol>
                   <li class="fragment">Look outside the tech comm bubble.</li>
                   <li class="fragment">Leverage wisdom from the crowd.</li>
-                  <li class="fragment">Accept that you will sometimes fail.</li>
+                  <li class="fragment">Accept that some efforts will fail.</li>
                </ol>
                   <aside class="notes">
                     <p>- tech comm technologies are a speck in the landscape. tech comm is much larger than people in this space</p>

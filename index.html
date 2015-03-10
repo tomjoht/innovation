@@ -42,6 +42,7 @@
       <!--[if lt IE 9]>
       <script src="lib/js/html5shiv.js"></script>
       <![endif]-->
+      <!-- these are my custom styles. remember that slide sizes scale, so try to use percentages. -->
       <style>
          p.alignLeft {
          text-align: left;
@@ -66,23 +67,23 @@
           max-width: 80%;
           max-height: 80%;
          }
+         #upcoming-slide .label {
+          color: #444 !important
+         }
 
       </style>
+
+      <!-- Note: Make artboard sizes about 775px wide X 445px tall. If the image appears as a vertical navigation, add a class
+      of "shortened" to the image element to reduce its size to 80% -->
    </head>
    <body>
       <div class="reveal innovation">
          <!-- Any section element inside of this container is displayed as a slide -->
          <div class="slides">
-            <section>
-               <h1><span class="orange">Innovation</span><br/> in Technical Communication</h1>
-               <h3>tcworld India 2015</h3>
-               <p>
-                  <small>Created by <a href="http://idratherbewriting.com">Tom Johnson</a> / <a href="http://twitter.com/tomjohnson">@tomjohnson</a></small>
-               </p>
-            </section>
+
             
             <section>
-               <h2>Keyboard shortcuts</h2>
+               <h2>Before we begin...</h2>
                <table>
                   <tr>
                      <td><b>Full Screen</b></td>
@@ -101,22 +102,38 @@
                      <td>Esc</td>
                   </tr>
                </table>
-               <p>Online URL: <a href="http://tomjohnson1492.github.io/innovation">http://tomjohnson1492.github.io/innovation</a>
-               <p><i><b>Note:</b> Some slides move down instead of to the side, so use the space bar to advance slides instead of your arrow key.</i></p>
+               <p><small>View online at <a href="http://tomjohnson1492.github.io/innovation">http://tomjohnson1492.github.io/innovation</a></small><br/>
+               <small><i><b>Note:</b> Some slides move down instead of to the side, so use the space bar to advance slides.</i></small></p>
+
+               <aside class="notes">
+               <p>Congrats -- this is the speaker notes view.</p>
+               <p>Follow along as you like.</p>
+               <p>Notice the navigation arrows in the lower corner.</p>
+               <p>Feel free to fork this slide template.</p>
+               </aside>
+            </section>
+
+              <section>
+               <h1><span class="orange">Innovation</span><br/> in Technical Communication</h1>
+               <h3>tcworld India 2015</h3>
+               <p>
+                  <small>Created by <a href="http://idratherbewriting.com">Tom Johnson</a> / <a href="http://twitter.com/tomjohnson">@tomjohnson</a></small>
+               </p>
+               <aside class="notes">
+               <p>- My name is Tom Johnson, blog at idratherbewriting.com</p>
+               <p>- My goal: Try to tell you a relevant story.</p>
+               <p>- First time giving this presentation</p>
+               </aside>
             </section>
           
             <section>
                <h2>Startup cultures encourage innovation</h2>
                <img src="media/vectors/innovation_milkyway.svg" />
-               <ol>
-                  <li>Many new 1.0 products</li>
-                  <li>Doc is an open road</li>
-                  <li>Projects aren't enormous</li>
-               </ol>
-               <aside class="notes">
-              <p>- in silicon valley, every company a startup</p>
-              <p>- many projects are a 1.0</p>
+              <aside class="notes">
+              <p>- in SV, every company a startup</p>
               <p>- startups encourage innovation</p>
+              <p>- Teams usually small, direction amenable</p>
+              <p>- Doc is an open road</p>
                </aside>
             </section>
             <section>
@@ -124,9 +141,10 @@
                <blockquote cite="http://idratherbewriting.com/2015/02/18/the-genius-of-github/#comment-226950">"As to what your journey says, I think it says that all the current models of tech comm development are deeply unsatisfactory in one way or another." <br/><br/>&mdash; Mark Baker, Every Page Is Page One</blockquote>
 
             <aside class="notes">
-             <p>- with startups, doc is open road</p>
-             <p>- as writer, you have lots of options, with no overwhelming one</p>
-             <p>- tried help authoring tools, wikis, structured authoring --> still unsatisfied </p>
+             <p>- M. Baker evaluates my TC journey.</p>
+             <p>- As writer, you have lots of options. No standard.</p>
+             <p>- Tool fragmentation indicative of dissatisfaction.</p>
+             <p>- Why all options dissatisfying?</p>
 
             </aside>
             </section>
@@ -135,9 +153,10 @@
               <h2>"Think Big Thursdays"</h2>
               <img src="media/vectors/innovation_tbt.svg"/>
               <aside class="notes">
-              <p>- my main task: bring content online into the modern era</p>
-              <p>- move the needle forward</p>
-              <p>- we're rarely given <i>time</i> to actually be innovative</p>
+              <p>- Task: transition content online.</p>
+              <p>- Time to implement, experiment.</p>
+              <p>- Move the needle forward.</p>
+              <p>- Dream the vision without constraints of how.</p>
               </aside>
 
               </section>
@@ -148,18 +167,19 @@
                   <figcaption>Bell and an early model of the telephone.</figcaption>
                </figure>
                <aside class="notes">
-                <p>- early versions of telephone were not compelling</p>
-                <p>- telegraph companies refused to buy until telephone displaced them</p>
-                <p>- similar stories: netflix/blockbuster, wikipedia/encyclopedia brittannica/wikipedia, email/letters, SLRs/cameras </p>
+                <p>- Instructive to look at innovation in history.</p>
+                <p>- Early versions of telephone not compelling.</p>
+                <p>- Similar stories: netflix, wikipedia.</p>
                </aside>
             </section>
             <section>
                <h2>Sustaining vs disruptive innovations</h2>
                <img src="media/vectors/innovation_disruptive.svg"/>
                <aside class="notes">
-                 <p>- developing technologies aren't compelling at first</p>
-                 <p>- but look at the trajectories; eventually dev overtakes</p>
-                 <p>- there are different value markets -- big companies can't operate in the lower value market</p>
+                 <p>- Developing technologies are sub-performant</p>
+                 <p>- But look at the trajectories.</p>
+                 <p>- Different value markets -- big companies can't operate.</p>
+                 <p>- Example: imagine doc dept as company</p>
                </aside>
             </section>
                
@@ -171,29 +191,30 @@
                   <p class="miscItems">HTML5 &bull; REST APIs &bull; CSS media queries &bull; oAuth &bull; AJAX &bull; instant search &bull; SVG &bull; augmented reality &bull; Internet of Things &bull; big data &bull; social networks &bull; YouTube &bull; Bootstrap &bull; static site generators &bull; jQuery &bull; YouTube &bull; StackOverflow &bull; Github &bull; continuous integration &bull; LESS & Sass &bull; wikis
                   </p>
                   <aside class="notes">
-                    <p>- thriving tech innovation is unprecedented</p>
-                    <p>- these are just some highlights relevant to tech comm</p>
-                    <p>- just trying to keep up with it all is challenging</p>
+                    <p>- Thriving tech innovation is unprecedented.</p>
+                    <p>- These are just some highlights relevant to tech comm.</p>
+                    <p>- Just trying to keep up with it all is challenging.</p>
                   </aside>
                </section>
                <section>
                   <h3>Innovations with ideas</h3>
-                  <p class="miscItems">decentralization &bull; agile &bull; crowdsourcing &bull; gamification &bull; Cluetrain Manifesto (user-to-user communication) &bull; The Long Tail &bull; "Everything Is Miscellaneous" &bull; semantic web &bull; information architecture &bull; content marketing &bull; transparency &bull; simplicity of design &bull; open source &bull; social coding
+                  <p class="miscItems">decentralization &bull; agile &bull; crowdsourcing &bull; gamification &bull; Cluetrain Manifesto (user-to-user communication) &bull; "Everything Is Miscellaneous" &bull; The Long Tail &bull; semantic web &bull; information architecture &bull; content marketing &bull; transparency &bull; simplicity of design &bull; open source &bull; social coding
                   </p>
                   <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- Sometimes idea derives from tech.</p>
+                    <p>- Web is major driver.</p>
+                    <p>- Dave Weinberger is thought leader. </p>
                   </aside>
                </section>
                <section>
                   <h3>Innovations in tech comm</h3>
-                  <p class="miscItems">information typing &bull; minimalism &bull; task-based documentation &bull; topic-oriented documentation &bull; DITA &bull; DocOps &bull; Every Page Is Page One &bull; emotional language &bull; personalization &bull; video tutorials &bull; user-generated content &bull; content strategy &bull; single sourcing
+                  <p class="miscItems">information typing &bull; minimalism &bull; task-based documentation &bull; topic-oriented documentation &bull; DITA &bull; DocOps &bull; Every Page Is Page One &bull; emotional language &bull; personalization &bull; interactive video &bull; user-generated content &bull; content strategy &bull; single sourcing
                   </p>
                   <aside class="notes">
-                    <p>- not much innovation in tech comm in past 20 yrs compared to web</p>
-                    <p>- partly, we're not engineers, so we don't really build things</p>
-                    <p>- most of these are probably sustaining innovations</p>
+                    <p>- Not much innovation in tech comm.</p>
+                    <p>- Partly, we're not engineers.</p>
+                    <p>- Most ideas are sustaining innovations.</p>
+                    <p>- Tech comm follows path <i>separate from web</i>.</p>
                   </aside>
                </section>
             </section>
@@ -201,12 +222,13 @@
                <h2>Most significant innovation for TC?</h2>
               <section>
               <h3>Everyone is a technical writer</h3>
-                  <img src="media/vectors/innovation_significant.svg"/>
+                  <img class="shortened" src="media/vectors/innovation_significant.svg"/>
                
                  <aside class="notes">
-                    <p>- people publish help info via blogs daily, which others use</p>
-                    <p>- decentralization of information</p>
-                    <p>- people don't care about the source -- just google it and find the information</p>
+                    <p>- Response from Mark Baker.</p>
+                    <p>- Definition of tech writer applies generally.</p>
+                    <p>- Information is decentralized.</p>
+                    <p>- people don't care about the source.</p>
                   </aside>
               </section>
             <section>
@@ -214,18 +236,20 @@
                   <img src="media/rasters/everyoneistechwriter.png"/>
                
                  <aside class="notes">
-                    <p>- stackoverflow comes up a lot when you search for technical questions</p>
-                    <p>- the model: if you don't find the answer, ask on stackoverflow so next time you will</p>
-                    <p>- different people watch different tags; gamified; resume credentials based on points</p>
+                    <p>- Stackoverflow surfaces constantly</p>
+                    <p>- The model: if you don't find, ask, then next time...</p>
+                    <p>- Different people watch different tags.</p>
+                    <p>- Gamification element, but you also learn.</p>
                   </aside>
             </section>
                <section>
                <h3>Job trends for technical writer</h3>
                   <img src="media/rasters/twjob_trends.png"/>
                   <aside class="notes">
-                  <p>- okay, so why do I still have a job?</p>
-                  <p>- may only hold true for popular products in mainstream</p>
-                  <p>- amount of tech in 7 years has dramatically increased, but not TW jobs</p>
+                  <p>- Given the trend, why do I still have a job?</p>
+                  <p>- May only hold true for popular products in mainstream.</p>
+                  <p>- Amount of tech in 7 years has dramatically increased, but not TW jobs.</p>
+                  <p>- Obama tweet: There are 500 IT jobs to be filled. No jump in TW jobs?</p>
                   </aside>
                </section>
             </section>
@@ -234,9 +258,10 @@
                <h2>Microsoft and last 5 great innovations</h2>
                <img src="media/vectors/innovation_microsoft.svg"/>
                    <aside class="notes">
-                    <p>- why has MS failed? author says they put earnings into shareholder dividends instead of investing in dev tech</p>
-                    <p>- is tech comm like the Microsoft? how are we participating in these innovations? want to avoid this scenario</p>
-                    <p>- if we don't factor into these innovations, are we really relevant to consumers?</p>
+                    <p>- Evaluate TC in each of these areas.</p>
+                    <p>- Why has MS failed? earnings channeled into dividends.</p>
+                    <p>- Is tech comm like the Microsoft?</p>
+                    <p>- Are we really relevant to consumers?</p>
                   </aside>
             </section>
               
@@ -246,9 +271,10 @@
                   <h4><span class="orange">How long can you operate at a sub-performing level while you do research and development?</span></h4>
                   <image src="media/vectors/innovation_performance.svg"/>
                   <aside class="notes">
-                    <p>- even while given time for think big thursdays, projects still march forward with deadlines</p>
-                    <p>- lots of time spent in tooling; people take for granted the ease of publishing a modern-looking website</p>
-                    <p>- R&D pace slow -- incorporate experiments with pilot projects. </p>
+                    <p>- Think Big Thursdays somewhat of an illusion.</p>
+                    <p>- Requires personal time.</p>
+                    <p>- People take tools for granted.</p>
+                    <p>- Project mgrs expect deadlines met.</p>
                   </aside>
                </section>
                <section>
@@ -256,9 +282,23 @@
                   <h4><span class="orange">How can you switch models when you're mired in legacy content and systems?</span></h4>
                   <image src="media/vectors/innovation_legacy.svg"/>
                   <aside class="notes">
-                    <p>- this is why pilot projects are important -- don't make the wrong decision.</p>
-                    <p>- difficulty of switching away from Drupal at Badgeville. already have a process, tooling, method.</p>
-                    <p>- most tech writers are cogs in a wheel. decisioning power to make major tech changes limited.</p>
+                    <p>- Startup environments advantageous.</p>
+                    <p>- Do pilot projects to experiment.</p>
+                    <p>- Difficulty of switching tooling at Badgeville.</p>
+                    <p>- Leave legacy content in legacy format.</p>
+                  </aside>
+               </section>
+                <section>
+           
+                  <h4><span class="orange">How do you know if you're just wasting your time?</span></h4>
+                  
+                     <img src="media/vectors/innovation_wastedtime.svg"/>
+                 
+                  <aside class="notes">
+                    <p>- Best practices for new tool unknown.</p>
+                    <p>- Trial and error, many detours.
+                    <p>- Not many tutorials or clear paths.</p>
+                    <p>- Could be in right field w/ wrong approach.</p>
                   </aside>
                </section>
                <section>
@@ -267,137 +307,109 @@
                   <image src="media/vectors/innovation_skillset.svg"/>
                </section>
                  <aside class="notes">
-                    <p>- today the tools you know lands you the job; writing skills assumed</p>
-                    <p>- companies want you to hit the ground running</p>
-                    <p>- plug into company's existing toolset</p>
+                    <p>- The tools you know lands you the job.</p>
+                    <p>- Companies want you to plug into <i>their</i> tools</p>
+                    <p>- Don't have unlimited time for learning.</p>
                   </aside>
-               <section>
-           
-                  <h4><span class="orange">How do you know if you're just wasting your time?</span></h4>
-                  
-                     <img src="media/vectors/innovation_wastedtime.svg"/>
-                 
-                  <aside class="notes">
-                    <p>- best way to do something in new system may be unknown. lots of trial and error.</p>
-                    <p>- spend a lot of time just figuring things out</p>
-                    <p>- </p>
-                  </aside>
-               </section>
             </section>
             <section>
                <h2>Pressure towards DITA</h2>
                <img src="media/vectors/innovation_pressure.svg"/> 
                  <aside class="notes">
-                    <p>- conversation at Content Strategy conference</p>
-                    <p>- wanted to learn it to stay competitive in marketplace</p>
-                    <p>- amazing market pressure from companies; lots of buzz, but only 15-20% adoption</p>
+                    <p>- Wanted to learn it to stay competitive.</p>
+                    <p>- Created 50 best practices for team.</p>
+                    <p>- Paradoxically, DITA has only 15-20% adoption.</p>
                   </aside>
             </section>
             <section>
                <h2>A basic navtab?</h2>
                <img src="media/rasters/navtabs.png"/>
                   <aside class="notes">
-                    <p>- not very flexible if you want to do anything different</p>
-                    <p>- information typing model where you enforce certain types caused me to create a lot of workarounds</p>
-                    <p>- created quite a few hacks for collapsible sections, expanding side panes, mini-TOCs, import into WP, but navtab is straw that broke the camel's back</p>
+                    <p>- Wanted more: mini-TOC, faceted filtering, show/hide sections, side panes.</p> 
+                    <p>- Import into WP works but WP fails.</p>
+                    <p>- Navtabs = particularly frustrating; not very flexible.</p>
+                    <p>- Some good parts: text editor, filtering, OxygenXML.</p>
+                    
                   </aside>
             </section>
-
-            <section>
+            <section>    
                <h2>XML and the web: Drifting apart?</h2>
-               <img src="media/vectors/innovation_json.svg"/>
-                  <aside class="notes">
-                    <p>- proliferation of REST APIs on web using JSON as default language format instead of XML</p>
-                    <p>- reverberates through web stack toolchain</p>
-                    <p>- not a lot of UX people want to work with XML; example from B. Colborn, from N. Kaplan, Badgeville setup</p>
-                  </aside>
-            </section>
-
-            <section>
-               <h2>Technologies used by web developers</h2>
-              
-               <img src="media/rasters/webtechnologies.png"/>
-                  <aside class="notes">
-                    <p>- XML not very commonly used in web publishing solutions </p>
-                    <p>- convert XML to HTML, but hard to integrate into toolset even so</p>
-                    <p>- Markdown is really popular and preferable</p>
-                    <p>- Number of web development tools is exploding. This is where innovation is really hot.</p>
-                  </aside>
-            </section>
-            <section>
-               <h2>Web tools to know</h2>
                <section>
-               <h3>Bootstrap</h3>
-              
-               <img class="shortened" src="media/rasters/bootstrap.png"/>
-          
+               <h3>JSON is standard</h3>
+               <img class="shortened" src="media/vectors/innovation_json.svg"/>
                   <aside class="notes">
-                    <p>- the bootstrap grid -- gets you responsive design easily</p>
-                    <p>- add new components like magic with just styles</p>
-                    <p>- lots of js fiddles showing how-tos, such as with collapsible section </p>
+                    <p>- JSON overtook XML as communication protocol.</p>
+                    <p>- Reverberates through web stack toolchain.</p>
+                    <p>- Not a lot of UX people want to work with XML.</p> 
+                    <p>- API doc space involves devs contributing.</p>
                   </aside>
             </section>
 
             <section>
-            <h3>jQuery</h3>
-               <img class="shortened" src="media/rasters/jquery.png"/>
-               
+               <h3>Technologies used by web developers</h3>
+              
+               <img class="shortened" src="media/rasters/webtechnologies.png"/>
                   <aside class="notes">
-                    <p>- jquery plugins for everything -- selecting, filtering, animating, interacting</p>
-                    <p>- know simple way to integrate jquery and you expand your world significantly</p>
-                    <p>- sidebar navigation, drop-downs, mini-TOCs, expand/collapse, filter</p>
+                    <p>- Example from B. Colborn, from N. Kaplan.</p>
+                    <p>- Markdown is really popular and preferable.</p>
+                    <p>- Number of web development tools exploding.</p>
                   </aside>
             </section>
-            <section>
-            <h3>Markdown</h3>
+            </section>
+
+            <section><h2>The turning point</h2>
+            
+            <img class="shortened" src="media/vectors/innovation_turningpoint.svg"/>
+                  <aside class="notes">
+                    <p>- I'm not alone in this realization.</p>
+                    <p>- Tech comm a speck on the map compared to wider web community.</p>
+                    <p>- Need to look outside tech comm bubble.</p>
+                    <p>- Just as every one on web is tech writer, break tool barriers.</p>
+                  </aside>
+
+            </section>
            
-               <img src="media/rasters/markdown.jpg"/>
-               
-                  <aside class="notes">
-                    <p>- no tags to get in the way, so it's very readable</p>
-                    <p>- where you fall short, use HTML. just be careful of spacing.</p>
-                    <p>- a ton of web dev tools process Markdown.</p>
-                  </aside>
-            </section>
-            </section>
 
             <section>
                <h2>The genius of Github and open source</h2>
+              
                <section>
-               <h3>Revolutionary for software development?</h3>
-               <blockquote>
-               "Github, in my humble opinion, is one of the most revolutionary things that has happened to software in 20 years." <br /><br />&mdash; -- Joe Malin
-               </blockquote>
-              <aside class="notes">
-                    <p>- podcast with Joe. 7 yrs at google in API doc. </p>
-                    <p>- </p>
-                    <p>- </p>
-                  </aside>
-
-               </section>
-               <section>
-              <h3>Github repositories</h3>
+              <h3>Collaborate, version, distribute</h3>
                <img class="shortened" src="media/rasters/github.png"/>
                
                   <aside class="notes">
-                    <p>- default code repository for projects on the web</p>
-                    <p>- allows devs to share code with each other</p>
-                    <p>- uses git as the revision control software</p>
+                    <p>- In addition to tech, methods for dev differ.</p>
+                    <p>- Default code repository for projects.</p>
+                    <p>- Use git as the revision control software<./p>
                   </aside>
             </section>
 
+             <section>
+               <h3>Revolutionary for software development</h3>
+               <blockquote>
+               "Github, in my humble opinion, is one of the most revolutionary things that has happened to software in 20 years." <br /><br />&mdash; Joe Malin
+               </blockquote>
+              <aside class="notes">
+                    <p>- Living code samples (get updates locally). </p>
+                    <p>- Complete transparency into code.</p>
+                    <p>- Ability to distribute, fork.</p>
+                  </aside>
+
+               </section>
+
             <section>
-            <h3>Social coding</h3>
+            <h3>"Social coding"</h3>
                <img class="shortened" src="media/vectors/innovation_github.svg"/>
                   <aside class="notes">
-                    <p>- why so revolutionary? living code samples.  </p>
-                    <p>- provide updates to people using your code</p>
-                    <p>- people sync to your repo and get updates when you they pull</p>
+                    <p>- Code no longer static, isolated -- social.</p>
+                    <p>- One dev takes over when wants to add feature.</p>
+                    <p>- Open source code collaboration.</p>
                   </aside>
             </section>
             </section>
- <section data-background="media/vectors/innovation_code.svg">
-                  <h2>Treating documentation as code</h2>
+            <section><h2>Treating documentation as code</h2>
+                <section data-background="media/vectors/innovation_code.svg">
+                <h3>Writing documentation like a developer</h3>
                   <table>
                      <tr>
                         <td><b>File format:</b></td>
@@ -426,80 +438,110 @@
                   </table>
               
                   <aside class="notes">
-                     <b>Story 1:</b> Confluence's switch from wiki text to rich text.<br/>
-                     <b>Story 2:</b> Using DITA with Oxygen was first exposure to pure text-file formats.<br/>
-                     <b>Story 3:</b> Pushing changes to Github repo triggers the build.
+                     <p>- Why I hate Confluence's rich text editor.</p>
+                     <p>- Using DITA with Oxygen was first exposure.</p>
+                     <p>- No need for CMS; discussion at TC Camp unconference</p>
                   </aside>
                </section>
-               <section>
-                  <h2>This slidedeck is just HTML5.</h2>
+               <section data-background="media/vectors/innovation_code.svg"><h3>Sublime Text as Editor</h3>
+               <img class="shortened" src="media/rasters/sublime_text.png"/>
+               <aside class="notes">
+                    <p>- Syntax highlighting allows visibility.</p>
+                    <p>- Navigate docs in side panel view.</p>
+                    <p>- Text file formats fit into revision control.</p>
+                    <p>- Push to S3 from command line with <code>. push.sh</code>. </p>
+                </aside>
+
+               </section>
+               <section data-background="media/vectors/innovation_code.svg">
+                  <h3>This slidedeck is just HTML5.</h3>
                   <p>Here's the code for this slide:</p>
                   <pre><code>
           &lt;section&gt;
-            &lt;h2&gt;This slidedeck is just HTML5.&lt;/h2&gt;
+            &lt;h3&gt;This slidedeck is just HTML5.&lt;/h3&gt;
             &lt;p>Here's the code for this slide:&lt;/p&gt;
-            
+             &lt;p&gt;Github repo: &lt;a target="_blank" href="https://github.com/tomjohnson1492/innovation/"&gt;
+             https://github.com/tomjohnson1492/innovation/&lt;/a&gt;&lt;/p&gt;
             &lt;p&gt;&lt;i&gt;So much more satisfying to work in text 
             file formats.&lt;/i&gt;&lt;/p&gt;
          &lt;/section&gt;
             </code></pre>
-            <p>Github repo: <a target="_blank" href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a>
-                  <p><i>It's so much more satisfying to work in text file formats.</i></p>
+            <p>Github: <a target="_blank" href="https://github.com/tomjohnson1492/innovation/">https://github.com/tomjohnson1492/innovation/</a></p>
+                  <p><i>So much more satisfying to work in text-file formats.</i></p>
 <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- Reinforces my decision to treat doc as code.</p>
+                    <p>- Simpler, yes, but more free.</p>
+                    <p>- Hope to never use PPT again.</p>
+                    <p>- You can fork my presentation, using as template.</p>
+                    <p>- People build on each other's work.</p>
                   </aside>
+               </section>
                </section>
             <section>
                <h2>Static site generators replace DB sites</h2>
-               <img src="media/rasters/staticgen.png"/>
+               <section><h3>Lightweight, flexible, transparent</h3>
+               <img class="shortened" src="media/rasters/staticgen.png"/>
                   <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- Tech works using command line.</p>
+                    <p>- Fits well into the API doc space.</p>
+                    <p>- 50 options but most work similarly</p>
+                    <p>- Author in Markdown, which is glorious.</p>
                   </aside>
-            </section>
+              </section>
+              <section><h3>Jekyll is most popular</h3>
+              <img class="shortened" src="media/rasters/jekyll.png"/>
+              <aside class="notes">
+                    <p>- Preview mode to see changes in browser.</p>
+                    <p>- Uses Liquid templating language for advanced logic.</p>
+                    <p>- Used in major sites: getbootstrap.com, healthcare.gov, more.</p>
+                </aside>
+              </section>
             <section>
-               <h2>Documentation theme built on Jekyll</h2>
+               <h3>Documentation theme I built on Jekyll</h3>
                <img src="media/rasters/jekylldoctheme.png"/>
                   <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- Used Bootstrap framework and jQuery plugins.</p>
+                    <p>- Vanilla theme starts simple, then grow complexity.</p>
+                    <p>- Liquid allows you to do all DITA functionality + more.</p>
                   </aside>
             </section>
-                <section>
-               <h2>Growth in REST APIs</h2>
-               <img src="media/rasters/webapigrowth.png"/>
-                  <aside class="notes">
-                    <p>- websites are all mashups now</p>
-                    <p>- avg web developer works with 8-10 APIs per site</p>
-                    <p>- </p>
-                  </aside>
             </section>
+
             <section>
                <h2>Help APIs</h2>
             <section>
-          <h3>Sites pull in content</h3>
-               <img class="shortened" src="media/vectors/innovation_helpapi.svg"/>
-               
+               <h3>Growth in REST APIs</h3>
+               <img class="shortened" src="media/rasters/webapigrowth.png"/>
                   <aside class="notes">
-                    <p>- push content into JSON format</p>
-                    <p>- put on domain with CORS enabled</p>
-                    <p>- easy way to control in-app help</p>
+                    <p>- Websites are more than standalone pieces of content. </p>
+                    <p>- Everything is a mashup now.</p>
+                    <p>- Avg web developer works with 8-10 APIs per site.</p>
+                    <p>- Web is expanding into a true intertangled, interwoven web.</p>
+                    <p>- </p>
                   </aside>
             </section>
             <section>
-             <h3>Tooltips populated dynamically from API</h3>
+          <h3>Why not create help content APIs?</h3>
+               <img class="shortened" src="media/vectors/innovation_helpapi.svg"/>
+               
+                  <aside class="notes">
+                    <p>- Push content into JSON format.</p>
+                    <p>- Allow apps to pull in where needed. </p>
+                    <p>- Easy way to control in-app help.</p>
+                    <p>- Put help in exact spot where needed.</p>
+                  </aside>
+            </section>
+            <section>
+             <h3>Populate tooltips dynamically from API</h3>
                <a href="http://tomjohnson1492.github.io/documentation-theme-jekyll/tooltip_demo">
                <img class="shortened" src="media/rasters/tooltipdemo.png"/>
                </a>
                
                   <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- Devs just code IDs in places.</p>
+                    <p>- Must enable CORS on your domain.</p>
+                    <p>- Counterargument: Lacks scope of a web search w/ many results.</p>
+                    <p>- Rebuttal: In ideal scenarios, avoid search scenarios altogether.
                   </aside>
             </section>
             </section>
@@ -507,8 +549,13 @@
             <section>
                <h2>Extractable content</h2>
                <section>
-               <h3>Content separated from format</h3>
+               <h3>Content separated from structure</h3>
                <img class="shortened" src="media/vectors/innovation_separation.svg"/>
+               <aside class="notes">
+               <p>- Single sourcing paradigm already familiar.</p>
+               <p>- Take it one step further: define the formats/structures you want.</p>
+               <p>- Push to JSON, CSV, API doc, other.</p>
+               </aside>
             </section>
               <section>
               <h3>Iterate through pages</h3>
@@ -519,75 +566,156 @@
     {% for page in site.tooltips %}
     {
       "id"    : "{{ page.id }}",
-      "body": "{{ page.content | strip_newlines | replace: '\', '\\\\' | replace: '"', '\\"' }}"
+      "body": "{{ page.content | strip_newlines | replace: '\', '\\\\' | 
+               replace: '"', '\\"' }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 }
               </code></pre>
 
+               <aside class="notes">
+               <p>- <code>for</code> loop iterates through content.</p>
+               <p>- With each item in set, puts <code>id</code> & <code>body</code> here.</p>
+               <p>- This is Liquid templating language.</p>
+               <p>- Do similar tactic for CSV and Salesforce.</p>
+               </aside>
+
               </section>
               </section>
     
                <!-- <section data-background-video="media/video/expand.mp4"> -->
+               <!-- I decided video looked kind of lame here but left this placeholder as a how-to.-->
+
                <section data-background="media/vectors/innovation_scalability.svg"/>
-                  <h2>True Scalability</h2>
+                  <h2>Infinite scalability</h2>
+
                   <section>
+                  <h3>Realization</h3>
+                  <blockquote><i>One person writing from one perspective in one company, especially an outsider to the actual business context of the user, can't possibly cover all the information needs for every user.</i></blockquote>
+                  <aside class="notes">
+                    <p>- Allow devs to contribute using Markdown + text files.</p>
+                    <p>- Allow support engineers to continue in simple format.</p>
+                    <p>- Use tools and processes that are accessible to wider community.</p>
+                  </aside>
+               </section>
+
+                  <section><h3>Requirements</h3>
                   <ul>
-                     <li>Allow infinite number of authors.</li>
+                     <li>Handle any type of content.</li>
+                     <li>Allow unlimited number of authors.</li>
                      <li>Avoid free-for-all content junkyard of wikis.</li>
-                     <li>No price per "seat."</li>
+                     <li>No price per "seat"</li>
+
                   </ul>
                 <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
+                    <p>- No need to create fancy specializations for custom content types.</p>
+                    <p>- Main criticisms: Static site gens work only for small projects.</p>
+                    <p>- Acknowledgment: Could be true. But consider scalability of Wikipedia.</p>
                   </aside>
                </section>
-               <section>
-                  <h3><span class="orange">One person writing from one perspective in one company, especially an outsider to the actual business context of the user, can't possibly cover all the information needs for every user.</span></h3>
-                  <aside class="notes">
-                    <p>- </p>
-                    <p>- </p>
-                    <p>- </p>
-                  </aside>
+
                </section>
-               </section>
+
               <section>
                <h2>UX talent will help when platform is web</h2>
                <img src="media/vectors/innovation_ux.svg"/>
                   <aside class="notes">
-                    <p>- experience in working with Alan who is able to process doc block code into jekyll. uses gulp, esprima, and lots of other tools.</p>
-                    <p>- getting help content into easy to extract and manipulate/templatize format is huge</p>
-                    <p>- developing doc portal solutions will prob. require UX involvement.</p>
+                    <p>- Experience in working w/ Alan. His tools: Esprima, Gulp ...</p>
+                    <p>- Response to using XML? Make easy to extract content.</p>
+                    <p>- Extensive doc portal solutions require UX skillset.</p>
                   </aside>
             </section>
-            <!-- end parent -->
-        
+                <section>
+               <h2>Web tools to know</h2>
+               <section>
+               <h3>HTML, JS, CSS</h3>
+               <img class="shortened" src="media/rasters/htmljscss.png"/>
+                 <aside class="notes">
+                    <p>- Can't rely on UX. Tooling accessible even to non-UX.</p>
+                    <p>- These three are basics of everything on web.</p>
+                    <p>- So many resources online to learn.</p>
+                  </aside>
+
+               </section>
+               <section>
+               <h3>Bootstrap</h3>
+              
+               <img class="shortened" src="media/rasters/bootstrap.png"/>
+          
+                  <aside class="notes">
+                    <p>- The bootstrap grid -- makes responsive design easy.</p>
+                    <p>- Whole templates built on Bootstrap.</p>
+                    <p>- Add new components like magic with styles</p>
+                    <p>- Lots of JS Fiddles showing how-tos, e.g., collapsible section. </p>
+                  </aside>
+            </section>
+
+            <section>
+            <h3>jQuery</h3>
+               <img class="shortened" src="media/rasters/jquery.png"/>
+               
+                  <aside class="notes">
+                    <p>- jQuery plugins for everything -- selecting, filtering, animating.</p>
+                    <p>- Know enough jQuery to integrate & world expands.</p>
+                    <p>- In my Jekyll theme, jQuery for sidebar, drop-downs, mini-TOCs, expand/collapse.</p>
+                  </aside>
+            </section>
+            <section>
+            <h3>Markdown</h3>
+           
+               <img src="media/rasters/markdown.jpg"/>
+               
+                  <aside class="notes">
+                    <p>- A ton of web dev tools process Markdown.</p>
+                    <p>- Simple way to express HTML. </p>
+                    <p>- No tags to get in the way, so it's very readable even in code editor.</p>
+                    <p>- Where you fall short, use HTML, just be careful of spacing.</p>
+                  </aside>
+            </section>
+            </section>
+
+             
             <section data-background="media/vectors/innovation_strategies.svg">
                <h2 style="vertical-align: top;">3 Strategies for innovation</h2>
 
                <ol>
                   <li class="fragment">Look outside the tech comm bubble.</li>
-                  <li class="fragment">Leverage wisdom from the crowd.</li>
-                  <li class="fragment">Accept that some efforts will fail.</li>
+                  <li class="fragment">Ride the innovation of the web.</li>
+                  <li class="fragment">Leverage the wisdom of the crowd.  </li>
                </ol>
                   <aside class="notes">
-                    <p>- tech comm technologies are a speck in the landscape. tech comm is much larger than people in this space</p>
-                    <p>- blog about what you do. really interesting to get feedback on ideas. </p>
-                    <p>- even if you fail, there is serendipity. e.g., import DITA into WP failed, but learned how hard it is to use a tool against its intended design</p>
-                    <p>- 3M and development of post-it notes</p>
+                    <p>- Tech comm technologies are a speck in the web landscape. Cross-pollinate.</p>
+                    <p>- Follow the trends of the web with tech comm.</p>
+                    <p>- Blog about what you do. Feedback speeds development. </p>
+                    <p>- Even if you fail, there is serendipity (3M & post-it note glue.)</p>
                   </aside>
             </section>
             <section>
+          
                <h1>Thanks!</h1>
-               <p>Blog: <a class="orange" href="http://idratherbewriting.com">idratherbewriting.com</a></p>
-               <p>Twitter: <a class="orange" href="http://twitter.com/tomjohnson">@tomjohnson</a></p>
-               <p> GitHub: <a class="orange" href="https://github.com/tomjohnson1492">github.com/tomjohnson1492</a></p>
-               <p> Email: <a class="orange" href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a></p>
-               &nbsp;
-               Questions?
+
+                 <section>
+                 <h3>Contact info</h3>
+                 <ul>
+               <li>Blog: <a class="orange" href="http://idratherbewriting.com">idratherbewriting.com</a></li>
+               <li>Twitter: <a class="orange" href="http://twitter.com/tomjohnson">@tomjohnson</a></li>
+               <li> GitHub: <a class="orange" href="https://github.com/tomjohnson1492/innovation">github.com/tomjohnson1492/innovation</a></li>
+               <li> Email: <a class="orange" href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a></li>
+            </ul>
+              
             </section>
+
+            <section>
+            <h3>Credits</h3>
+            <ul>
+            <li>Read the innovation series on my blog, http://idratherbewriting.com</li>
+            <li>Slide framework from Reveal JS.</li>
+            <li>Some vectors come from Vecteezy.com</li>
+            </ul>
+            </section>
+            </section>
+
          </div>
       </div>
       <script src="lib/js/head.min.js"></script>

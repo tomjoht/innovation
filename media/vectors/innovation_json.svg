@@ -96,6 +96,8 @@
 		<text transform="matrix(1 0 0 1 624.7958 176.2109)" font-family="'Helvetica'" font-size="30">API</text>
 	</g>
 	<text transform="matrix(1 0 0 1 84.4907 414.8613)" font-family="'Helvetica'" font-size="30">server</text>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#C9C9C9" d="M275.7,372.6h-83.1c-6.1,0-11-5-11-11v-10.1c0-6.1,5-11,11-11
+		h83.1c6.1,0,11,5,11,11v10.1C286.7,367.6,281.8,372.6,275.7,372.6z"/>
 	<g>
 		<g>
 			<line fill="none" stroke="#484849" stroke-width="3" stroke-miterlimit="10" x1="176.9" y1="292.8" x2="182.2" y2="290"/>
@@ -211,7 +213,7 @@
 </text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 194.3969 369.415)" fill="#0000FF" font-family="'Helvetica'" font-size="30">JSON </text>
+		<text transform="matrix(1 0 0 1 194.3969 369.415)" fill="#FF0000" font-family="'Helvetica'" font-size="30">JSON </text>
 	</g>
 	<g>
 		<g>
@@ -244,7 +246,11 @@
 </g>
 <g id="legacy">
 </g>
+<g id="strategies">
+</g>
 <g id="pressure">
+</g>
+<g id="turning_x5F_point">
 </g>
 <g id="tbt">
 </g>

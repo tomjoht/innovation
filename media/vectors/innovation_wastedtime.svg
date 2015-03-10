@@ -27,6 +27,7 @@
 <g id="skillset">
 </g>
 <g id="wastedtime">
+	<rect x="0" y="0" fill="#F7F7F5" width="346.2" height="134.3"/>
 	<circle fill="#F2F2F2" stroke="#232323" stroke-width="2" stroke-miterlimit="10" cx="168.3" cy="66.9" r="55.6"/>
 	<path fill="#232323" d="M165.7,70.9l-4-22.9c0-0.1,0-0.1,0-0.2l4.5-33.4l4.5,32.9c0,0.1,0,0.1,0,0.2l-4,23.4
 		C166.6,71.4,165.8,71.4,165.7,70.9z"/>
@@ -48,7 +49,11 @@
 </g>
 <g id="legacy">
 </g>
+<g id="strategies">
+</g>
 <g id="pressure">
+</g>
+<g id="turning_x5F_point">
 </g>
 <g id="tbt">
 </g>

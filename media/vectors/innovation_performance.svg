@@ -23,6 +23,7 @@
 <g id="scalability">
 </g>
 <g id="performance">
+	<rect x="0" y="0" fill="#F7F7F5" width="346.2" height="134.3"/>
 	<line fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" x1="101.1" y1="73.3" x2="242.3" y2="45.3"/>
 	<line fill="none" stroke="#FF0000" stroke-width="2" stroke-miterlimit="10" x1="101.1" y1="112.4" x2="242.3" y2="82.7"/>
 	<line fill="none" stroke="#009245" stroke-width="3" stroke-miterlimit="10" x1="101.1" y1="100.1" x2="240.3" y2="25.7"/>
@@ -78,6 +79,8 @@
 <g id="wastedtime">
 </g>
 <g id="legacy">
+</g>
+<g id="strategies">
 	<g>
 		<defs>
 			<polygon id="SVGID_124_" points="776.4,-69.6 11.7,-69.6 8.9,-681 775.9,-681 			"/>
@@ -96,8 +99,34 @@
 </g>
 <g id="pressure">
 </g>
+<g id="turning_x5F_point">
+</g>
 <g id="tbt">
 </g>
 <g id="milkyway">
+	<rect x="256" y="27.2" fill="none" width="46.9" height="20.9"/>
+	<text transform="matrix(1 0 0 1 256.0401 32.8792)"><tspan x="0" y="0" fill="#5F5F60" font-family="'MyriadPro-Regular'" font-size="8">company </tspan><tspan x="0" y="9.6" fill="#5F5F60" font-family="'MyriadPro-Regular'" font-size="8">expectations</tspan></text>
+	<rect x="269.1" y="76.2" fill="none" width="46.9" height="20.9"/>
+	<text transform="matrix(1 0 0 1 269.0926 81.8455)"><tspan x="0" y="0" fill="#5F5F60" font-family="'MyriadPro-Regular'" font-size="8">current </tspan><tspan x="0" y="9.6" fill="#5F5F60" font-family="'MyriadPro-Regular'" font-size="8">productivity</tspan></text>
+	<circle fill="#0000FF" cx="174.8" cy="59.4" r="3.6"/>
+	<circle fill="#0000FF" cx="174.8" cy="85.4" r="3.6"/>
+	<g>
+		<g>
+			<path fill="none" stroke="#0000FF" stroke-miterlimit="10" stroke-dasharray="6,6" d="M264.6,22.7c0,0-37.3-18-59.5-6.4
+				c-18.6,9.7-27.8,24.7-30.9,32"/>
+			<g>
+				<path fill="#0000FF" d="M173.1,51.6c0-1.8-0.3-4-0.9-5.6l2.3,1.9l2.9,0C175.9,48.7,174.2,50.3,173.1,51.6z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="none" stroke="#0000FF" stroke-miterlimit="10" stroke-dasharray="6,6" d="M271.9,72.5c0,0-31.6-12.8-53.1-7.6
+				c-17.1,4.1-30.8,12-36.2,16.4"/>
+			<g>
+				<path fill="#0000FF" d="M180.2,83.7c0.7-1.6,1.4-3.8,1.5-5.5l1.2,2.7l2.7,1.2C184,82.3,181.8,83,180.2,83.7z"/>
+			</g>
+		</g>
+	</g>
 </g>
 </svg>

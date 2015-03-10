@@ -82,6 +82,7 @@ ul, ol, div, p {
 	width: 100%;
 	height: auto;
 
+
 	left: auto;
 	top: auto;
 	margin: 0 !important;
@@ -99,6 +100,10 @@ ul, ol, div, p {
 	   -moz-perspective-origin: 50% 50%;
 	    -ms-perspective-origin: 50% 50%;
 	        perspective-origin: 50% 50%;
+	     /* added this from the beige theme for printing. not sure if print preview supports gradient CSS.*/
+
+
+  background-color: #f7f3de; 
 }
 .reveal .slides section {
 	page-break-after: always !important;

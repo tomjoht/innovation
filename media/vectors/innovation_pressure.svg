@@ -30,6 +30,8 @@
 </g>
 <g id="legacy">
 </g>
+<g id="strategies">
+</g>
 <g id="pressure">
 	<g opacity="0.8">
 		<g>
@@ -279,7 +281,7 @@
 	<path fill="#FFFFFF" stroke="#434443" stroke-miterlimit="10" d="M43.2,102.6c0-10.6-4.8-35.4,14.5-48.6c18-12.3,59.4-13.3,80-13.3
 		c21.4,0,55.2,0.6,70.9,13.3S222,91.3,222,101.6c0,20.5-39.5,40.5-82.3,40.5c-2.9,0-5.6-0.1-8.1-0.2l16.3,57l-49.1-63.9
 		C77.5,129.4,43.2,118.2,43.2,102.6z"/>
-	<text transform="matrix(0.9701 0 0 1 55.3848 74.6191)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="15">I would have expected </tspan><tspan x="0" y="18" font-family="'Helvetica'" font-size="15">a professional like you </tspan><tspan x="0" y="36" font-family="'Helvetica'" font-size="15">would be using DITA?</tspan></text>
+	<text transform="matrix(0.9701 0 0 1 55.3848 74.6191)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="15">I would have expected </tspan><tspan x="0" y="18" font-family="'Helvetica'" font-size="15">a professional like you </tspan><tspan x="0" y="36" font-family="'Helvetica'" font-size="15">to be using DITA?</tspan></text>
 	
 		<radialGradient id="SVGID_20_" cx="1402.5139" cy="-3774.7896" r="27.5043" gradientTransform="matrix(-1.618 0.3292 0.2137 0.76 3511.0898 2708.4858)" gradientUnits="userSpaceOnUse">
 		<stop  offset="5.222240e-03" style="stop-color:#929497"/>
@@ -510,6 +512,8 @@
 			</g>
 		</g>
 	</g>
+</g>
+<g id="turning_x5F_point">
 </g>
 <g id="tbt">
 </g>

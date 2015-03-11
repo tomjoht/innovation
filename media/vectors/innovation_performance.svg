@@ -14,6 +14,10 @@
 </g>
 <g id="significant">
 </g>
+<g id="allcontribute">
+</g>
+<g id="githubhelp">
+</g>
 <g id="microsoft">
 </g>
 <g id="json">
@@ -80,13 +84,15 @@
 </g>
 <g id="legacy">
 </g>
+<g id="notanengineer">
+</g>
 <g id="strategies">
 	<g>
 		<defs>
-			<polygon id="SVGID_124_" points="776.4,-69.6 11.7,-69.6 8.9,-681 775.9,-681 			"/>
+			<polygon id="SVGID_211_" points="776.4,-69.6 11.7,-69.6 8.9,-681 775.9,-681 			"/>
 		</defs>
 		<clipPath id="SVGID_16_">
-			<use xlink:href="#SVGID_124_"  overflow="visible"/>
+			<use xlink:href="#SVGID_211_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_16_)">
 			<linearGradient id="SVGID_18_" gradientUnits="userSpaceOnUse" x1="386.7982" y1="-448.7094" x2="386.7982" y2="-267.2102">
@@ -98,6 +104,8 @@
 	</g>
 </g>
 <g id="pressure">
+</g>
+<g id="whatif">
 </g>
 <g id="turning_x5F_point">
 </g>
@@ -128,5 +136,9 @@
 			</g>
 		</g>
 	</g>
+</g>
+<g id="bubbles">
+</g>
+<g id="_x31_2345">
 </g>
 </svg>
